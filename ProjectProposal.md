@@ -1,26 +1,32 @@
 ## Project Proposal: Automated Resume Screening
-### COMP 4750: Natural Language Processing
-### By Shawon Ibn Kamal, 201761376
+COMP 4750: Natural Language Processing\
+By Shawon Ibn Kamal, 201761376
 
 #
 
-## Goal
+### Goal
 
-The goal of this project is to built an automated resume screening application. 
+The goal of this project is to built an automated resume screening application. The purpose of this project is to demonstrate a practical industry use of Natural Language Processing that helps businesses save resources on recruitment.
 
-## Description
+### Description
 
 The application will be built on python. It will consist of two main parts:
 
 1. **Extraction of information from resume**\
-\
 This will include parsing of resume files (.pdf, .docx, etc.) to structered usable information that can be processed. The output type will be a python dictionary.
 
 2. **Evaluation**\
-\
-Here, we will evaluate the usable informations to find a score for a given job description. This score will help rank resumes.
+Here, we will evaluate the usable informations to find a score for a given job description. This score will help rank resumes. The process will be done using a combination of few natural language processing and  machine learning algorithms. The evaluation will be based on these primary factors:
 
-## References
+   - Work Experience
+   - Education
+   - Skills
+   - Personality
+
+3. **Visualization**\
+After evaluation, the results will be visualized using Python Matplotlib.
+
+### References
 
 Here is a list of references to be used for this project. List may change in the future.
 
